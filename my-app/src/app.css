@@ -25,10 +25,10 @@
 	cursor: pointer;
 	text-decoration: none;
 }
-.nav-link:hover {
+/* .nav-link:hover {
 	color: var(--primary-color);
 	background-color: var(--secondary-color);
-}
+} */
 .navbar-brand {
 	font-size: 1.25rem;
 	font-weight: 800;
