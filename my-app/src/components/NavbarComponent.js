@@ -9,9 +9,9 @@ import '../styles/Navbar.css'
 function NavbarComponent() {
   return (
     <div>
-    <Navbar expand="lg" bg="light" data-bs-theme="light">
+    <Navbar expand="lg" bg="dark" data-bs-theme="dark">
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">Aida</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">

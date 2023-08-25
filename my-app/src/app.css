@@ -88,6 +88,9 @@
 	color: var(--primary-color);
 }
 /* ABOUT SECTION */
+.about{
+	margin: 30px;
+}
 
 .about img {
 	-webkit-box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.75);
