@@ -7,6 +7,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import './app.css';
 
+
 function App() {
   return (
     <div className="App">
