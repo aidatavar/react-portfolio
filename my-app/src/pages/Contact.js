@@ -5,28 +5,28 @@ import React from "react";
 function Contact() {
     return(
         <>
-        <section class="contact py-5" id="contact">
-        <div class="container py-5">
-            <h1 class="text-center title">Contact Me</h1>
+        <section className="contact py-5" id="contact">
+        <div className="container py-5">
+            <h1 className="text-center title">Contact Me</h1>
             <div id="err-message"></div>
-            <div class="row py-5">
-                <div class="col-lg-10 mx-auto">
-                    <div class="row text-center">
-                        <div class="col-lg-4">
-                            <div class="circle">
-                                <span><i class="fa-sharp fa-solid fa-envelope "></i></span>
+            <div className="row py-5">
+                <div className="col-lg-10 mx-auto">
+                    <div className="row text-center">
+                        <div className="col-lg-4">
+                            <div className="circle">
+                                <span><i className="fa-sharp fa-solid fa-envelope "></i></span>
                             </div>
-                            <h5 class="text-decoration-none"><a href="mailto:aidayeli15@gmail.com">Email</a></h5>
+                            <h5 className="text-decoration-none"><a href="mailto:aidayeli15@gmail.com">Email</a></h5>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="circle">
-                                <span><i class="fa-solid fa-phone "></i></span>
+                        <div className="col-lg-4">
+                            <div className="circle">
+                                <span><i className="fa-solid fa-phone "></i></span>
                             </div>
                             <h5><a href="tel:475-434-3477">Number</a></h5>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="circle">
-                                <span><i class="fa-brands fa-linkedin "></i></span>
+                        <div className="col-lg-4">
+                            <div className="circle">
+                                <span><i className="fa-brands fa-linkedin "></i></span>
                             </div>
                             <h5><a href="https://www.linkedin.com/in/aida-tavarez/" target="_blank">LinkedIn</a></h5>
                         </div>
@@ -34,40 +34,35 @@ function Contact() {
                 </div>
             </div>
 
-            <div class="row">
+            <div className="row">
 
-                <div class="col-lg-9 mx-auto">
+                <div className="col-lg-9 mx-auto">
                     <form id="myform" name="myForm" method="post" action="#">
-                        <div class="form-row">
-                            <div class="col-lg-6">
+                        <div className="form-row">
+                            <div className="col-lg-12">
                                 <input type="text" id="name" name="name" minlength="2"
-                                    class="form-control bg-light mb-3" placeholder="Name" />
-
+                                className="form-control bg-light mb-3" placeholder="Name" />
                             </div>
-                            <div class="col-lg-6">
-                                <input type="text" name="subject" class="form-control bg-light mb-3"
-                                    placeholder="Subject" id="subject" required />
-
+                            <div className="col-lg-12">
+                                <input type="text" name="subject" className="form-control bg-light mb-3"
+                                placeholder="Subject" id="subject" required />
                             </div>
-                            <div class="col-lg-6">
-                                <input type="email" name="email" class="form-control bg-light mb-3" placeholder="Email"
-                                    required />
-
+                            <div className="col-lg-12">
+                                <input type="email" name="email" className="form-control bg-light mb-3" placeholder="Email"
+                                required />
                             </div>
-                            <div class="col-lg-6">
-                                <input type="tel" name="phone" class="form-control bg-light mb-3" placeholder="Phone"
-                                    id="phone" required />
-
+                            <div className="col-lg-12">
+                                <input type="tel" name="phone" className="form-control bg-light mb-3" placeholder="Phone"
+                                id="phone" required />
                             </div>
                         </div>
-                        <div class="form-row">
-                            <div class="col-lg-12">
-                                <textarea name="" id="massage" class="form-control bg-light"
-                                    placeholder="Message" cols="30" rows="10" required></textarea>
-
+                        <div className="form-row">
+                            <div className="col-lg-12">
+                                <textarea name="" id="massage" className="form-control bg-light"
+                                placeholder="Message" cols="30" rows="10" required></textarea>
                             </div>
                         </div>
-                        <input class="btn3 m-4" type="submit" value="Submit" />
+                        <input className="btn3 m-4" type="submit" value="Submit" />
                     </form>
                 </div>
             </div>

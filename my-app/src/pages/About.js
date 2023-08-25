@@ -46,7 +46,7 @@ function About() {
                     </div>
 
 
-                    <button className="btn1 mt-5"><a href="../resume/Aida-Tavarez.pdf">Download C.V</a>
+                    <button className="btn1 mt-5"><a href={require('../resume/Aida-Tavarez.pdf')}>Download C.V</a>
                     </button>
                     <input type="button" className="btn2 mt-5" value="Contact Me" />
 

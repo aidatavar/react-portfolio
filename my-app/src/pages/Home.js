@@ -3,7 +3,7 @@ import React from "react";
 function Home() {
     return(
         <>
-        <section className="main py-5">
+        <section className="main justify-content-center py-5">
         <div className="container py-5 ">
             <div className="row py-5">
                 <div className="col-lg-7 py-5">
@@ -15,7 +15,6 @@ function Home() {
                     <input type="button" value="My Work" className="bt1 mt-5 mrr-3" />
                     <input type="button" value="Hire Me" className="bt2 mt-5" />
                 </div>
-
             </div>
         </div>
     </section>

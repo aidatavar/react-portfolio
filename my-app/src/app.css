@@ -67,6 +67,7 @@
 	border: none;
 	font-weight: bold;
 	border-radius: 5px;
+	margin: 10px;
 }
 .main .bt1:hover {
 	background-color: rgb(202, 25, 98);
@@ -81,6 +82,7 @@
 	border: 1px solid rgb(233, 20, 109);
 	font-weight: bold;
 	border-radius: 5px;
+	margin: 10px;
 }
 .main .bt2:hover {
 	background-color: rgb(233, 20, 109);
@@ -206,6 +208,7 @@ h1 {
 	color: var(--primary-color);
 	border-radius: 4px;
 	text-decoration: none;
+	margin: 10px;
 }
 .btn1:hover {
 	background-color: transparent;
@@ -222,6 +225,7 @@ h1 {
 	background-color: transparent;
 	color: var(--secondary-color);
 	border-radius: 4px;
+	margin: 10px;
 }
 
 .btn2:hover {
@@ -356,6 +360,10 @@ form .error {
 	border-radius: 4px;
 }
 
+.userInput{
+	width: 100%;
+}
+
 input.error {
 	border: 1px dashed red;
 	font-weight: 300;
@@ -373,6 +381,8 @@ footer {
 	background-color: rgb(32, 29, 29);
 	color: lightgray;
 }
+
+
 
 @media (prefers-color-scheme: dark) {
 	body {

@@ -26,8 +26,7 @@ function Footer () {
   
 
     <div class="text-center p-4">
-      © 2021 Copyright:
-      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      © 2021 Copyright: Aida Tavarez
     </div>
 
   </footer>
